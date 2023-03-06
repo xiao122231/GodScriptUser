@@ -205,17 +205,17 @@ end
 ---------------------------------------
 wait(1)
 Frame:TweenPosition(UDim2.new(0.367, 0,0.065, 0), "InOut", "Quad", 1, true)
-wait(5)
-Frame:TweenPosition(UDim2.new(1.526, 0,0.065, 0), "InOut", "Quad", 1, true)
+wait(3)
+Frame:TweenPosition(UDim2.new(1.526, 0,0.065, 0), "InOut", "Quad", 0.5, true)
 wait(1)
-TextLabel3:TweenPosition(UDim2.new(0.231, 0,0.255, 0), "InOut", "Quad", 1, true)
-wait(2)
-TextLabel3:TweenPosition(UDim2.new(1.526, 0,0.255, 0), "InOut", "Quad", 2, true)
+TextLabel3:TweenPosition(UDim2.new(0.231, 0,0.255, 0), "InOut", "Quad", 0.5, true)
+wait(1
+TextLabel3:TweenPosition(UDim2.new(1.526, 0,0.255, 0), "InOut", "Quad", 0.5, true)
 wait(1)
-TextLabel4:TweenPosition(UDim2.new(0.231, 0,0.255, 0), "InOut", "Quad", 1, true)
-wait(2)
-TextLabel4:TweenPosition(UDim2.new(1.526, 0,0.255, 0), "InOut", "Quad", 1, true)
-wait(2)
+TextLabel4:TweenPosition(UDim2.new(0.231, 0,0.255, 0), "InOut", "Quad", 0.5, true)
+wait(1
+TextLabel4:TweenPosition(UDim2.new(1.526, 0,0.255, 0), "InOut", "Quad", 0.5, true)
+wait(1
 Frame:Destroy()
 TextLabel3:Destroy()
 TextLabel4:Destroy()
